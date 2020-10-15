@@ -2,13 +2,34 @@
 <html lang="en">
     <head>
         <title>Linking JS to HTML</title>
+        <!-- Local JS -->
+        <script src="js/script.js"></script>
+        <!-- External JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.6/handlebars.js" integrity="sha512-MQkEjxbZvzs4TX8ES4/tTIyaYdtDlJzVocnPo0GoysTR0jCmNg0P2is7uqpCoWxmoS9X84CDVzuWgZD/R/Q2oQ==" crossorigin="anonymous"></script>
     </head>
     <body>
-        <script>
-        
-        
+
+        <h1 id="header">Testing DOM Elements</h1>
+
+        <div>
+            <p id="p1">Test value</p><p> Test Text</p>
+            <button type="button" onclick="test()">Click here!</button>
+        </div>
+        <div id="container">
+            <!-- Template Insertion goes here -->
+        </div>
+
+        <!-- Templating Example -->
+        <script id="example-template" type="text/x-handlebars-template">
+            <div class="entry">
+              <h1>{{title}}</h1>
+              <div class="body">
+                Hello my name is {{name}}! 
+              </div>
+            </div>
         </script>
-        
+
     </body>
 </html>
  
