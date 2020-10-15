@@ -1,5 +1,5 @@
 body {
-    background:grey
+    background:rgb(66, 58, 58)
 }
 * {
     box-sizing: border-box;
@@ -10,7 +10,7 @@ body {
     width: 400px;
     margin: auto;
     height: auto;
-    background: white;
+    background: rgb(44, 38, 38);
     padding: 10px;
 
 }
