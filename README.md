@@ -11,3 +11,7 @@ This is a repository of all my work learning about JS, HTML, CSS and other usefu
 <u> 0.0.2 </u>
 <br>
 * Added functioning calculator web page.
+
+<u> 0.0.3 </u>
+<br>
+* Added HomePage.
