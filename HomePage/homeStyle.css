@@ -1,0 +1,16 @@
+body {
+    background:rgb(34, 39, 63)
+}
+
+.wrap{
+    width: 90%;
+    margin: auto;
+    height: auto;
+    background: rgb(209, 209, 209);
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid rgb(187, 156, 156);
+    text-align: center;
+    font-weight: bold;
+    font-size: 75px;
+}
