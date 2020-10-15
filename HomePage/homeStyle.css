@@ -6,11 +6,41 @@ body {
     width: 90%;
     margin: auto;
     height: auto;
-    background: rgb(209, 209, 209);
+    background:  darkgray;
     padding: 10px;
     border-radius: 15px;
     border: 2px solid rgb(187, 156, 156);
     text-align: center;
     font-weight: bold;
     font-size: 75px;
+}
+
+img {
+    
+    border: 1px solid rgb(187, 156, 156);
+    border-radius: 15px;
+    padding: 5px;
+    width: 50px;
+    position: absolute;
+    right: 84%;
+    cursor: pointer;
+    
+  }
+  
+.calLink {
+
+
+    background-color: darkgray;
+    border: 1px solid rgb(187, 156, 156);
+    border-radius: 15px;
+    padding: 5px;
+    width: 400px;
+    height: 65px;
+    position: absolute;
+    right: 52%;
+    text-indent: 23%;
+    color: rgb(0, 0, 0);
+    
+    
+    
 }
