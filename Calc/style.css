@@ -7,29 +7,49 @@ body {
     -moz-box-sizing: border-box;
 }
 .wrap{
-    width: 400px;
+    width: 404px;
     margin: auto;
     height: auto;
     background: rgb(44, 38, 38);
     padding: 10px;
+    border-radius: 15px;
+    border: 2px solid #fff;
 
 }
 input[type=text]{
     width: 100%;
     padding: 10px;
-    font-size: 22px;
-    font-weight: bold;
     margin-top: 20px;
     border-radius: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    color: rgb(66, 58, 58);
+    background-color: rgb(180, 172, 172);
+    outline: none; 
+    cursor: pointer;
+    transition: .3s;
+    
+    
 }
 input[type=button]{
     width: 92px;
     padding: 10px;
     font-size: 22px;
     font-weight: bold;
-    border-radius: 5px;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    color: rgb(66, 58, 58);
+    background-color: rgb(180, 172, 172);
+    outline: none; 
+    cursor: pointer;
+    transition: .3s;
 
 }
 input[id=del]{
     width: 100%;
 }
+
+
+
