@@ -51,4 +51,3 @@ let checkDead = setInterval(function() {
 
 }, 10);
 
-
