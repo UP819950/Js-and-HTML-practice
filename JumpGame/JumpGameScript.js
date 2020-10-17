@@ -25,13 +25,13 @@ let checkDead = setInterval(function() {
     
     
     
-    if(blockLeft<20 && blockLeft >0 && characterTop >= 130){
+    if(blockLeft<20 && blockLeft >0 && characterTop >= 90){
         block.style.animation = "none";
         block.style.display = "none";
         
         dead = true;
         localStorage.removeItem("score")
-
+        document.getElementById("gameOver").innerHTML = "Game Over!";
 
         
     
