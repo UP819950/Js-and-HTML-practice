@@ -11,23 +11,44 @@ function jump() {
     }, 500);
 }
 
-let score = 0 ;
-
+let score = 0;
+let dead = false;
 
 let checkDead = setInterval(function() {
     let characterTop = parseInt (window.getComputedStyle(character).getPropertyValue("top"));
     let blockLeft = parseInt (window.getComputedStyle(block).getPropertyValue("left"));
+    
+    
+    
+    
+    
+    
+    
+    
     if(blockLeft<20 && blockLeft >0 && characterTop >= 130){
         block.style.animation = "none";
         block.style.display = "none";
-        alert("Game Over");
         
+        dead = true;
+        localStorage.removeItem("score")
+
+
+        
+    
+
     } 
+
+    if (dead == false){
+        score ++
+        scoreFinal = parseInt(  score / 100);
+        document.getElementById("score").innerHTML = "Score: " + scoreFinal;
+    
+    
+    } 
+
+    
+
+
 }, 10);
 
-let checkScore = setInterval(() => {
-    if (blockLeft == -19){
-        score ++;
-        document.getElementById("score").innerHTML = "Score: " + score;
-    }
-}, 1000);
+
