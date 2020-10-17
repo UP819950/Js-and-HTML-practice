@@ -26,4 +26,8 @@ This is a repository of all my work learning about JS, HTML, CSS and other usefu
 
 <u> 0.0.6 </u>
 <br>
-* functionality of JumpGame complete.
+* Functionality of JumpGame complete.
+
+<u> 0.0.7 </u>
+<br>
+* Homepage edits.

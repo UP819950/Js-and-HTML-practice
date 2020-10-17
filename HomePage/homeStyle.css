@@ -44,3 +44,22 @@ img {
     
     
 }
+
+.jumpLink {
+
+
+    background-color: darkgray;
+    border: 1px solid rgb(187, 156, 156);
+    border-radius: 15px;
+    padding: 5px;
+    width: 400px;
+    height: 65px;
+    position: absolute;
+    right: 5%;
+    top: 16%;
+    text-indent: 23%;
+    color: rgb(0, 0, 0);
+    
+    
+    
+}
