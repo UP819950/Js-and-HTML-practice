@@ -23,3 +23,7 @@ This is a repository of all my work learning about JS, HTML, CSS and other usefu
 <u> 0.0.5 </u>
 <br>
 * Started working on JumpGame.
+
+<u> 0.0.6 </u>
+<br>
+* functionality of JumpGame complete.
