@@ -19,3 +19,7 @@ This is a repository of all my work learning about JS, HTML, CSS and other usefu
 <u> 0.0.4 </u>
 <br>
 * Added link on homepage to calculator page.
+
+<u> 0.0.5 </u>
+<br>
+* Started working on JumpGame.
