@@ -11,6 +11,9 @@ function jump() {
     }, 500);
 }
 
+let score = 0 ;
+
+
 let checkDead = setInterval(function() {
     let characterTop = parseInt (window.getComputedStyle(character).getPropertyValue("top"));
     let blockLeft = parseInt (window.getComputedStyle(block).getPropertyValue("left"));
@@ -18,5 +21,13 @@ let checkDead = setInterval(function() {
         block.style.animation = "none";
         block.style.display = "none";
         alert("Game Over");
-    }
+        
+    } 
 }, 10);
+
+let checkScore = setInterval(() => {
+    if (blockLeft == -19){
+        score ++;
+        document.getElementById("score").innerHTML = "Score: " + score;
+    }
+}, 1000);
