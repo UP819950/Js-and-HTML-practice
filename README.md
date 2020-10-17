@@ -35,3 +35,7 @@ This is a repository of all my work learning about JS, HTML, CSS and other usefu
 <u> 0.0.8 </u>
 <br>
 * Added score and reset system to JumpGame.
+
+<u> 0.0.8 </u>
+<br>
+* Homepage edits.
